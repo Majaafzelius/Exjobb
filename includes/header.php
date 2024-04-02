@@ -5,7 +5,7 @@
         <title>Prototyp</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css" type="text/css">
-        <script src="js/prototyp.js"></script>
+        
     </head>
     <body>
         <header> 
@@ -18,13 +18,13 @@
                     <a href="#two">Företag</a>
                     <a href="#three">Om Preem</a>
                 </nav>
-                <nav class="bot-nav one">
+                <nav class="bot-nav" id="bot-nav-one">
                     <a href="#">Hitta station</a>
                 </nav>
-                <nav class="bot-nav two">
+                <nav class="bot-nav" id="bot-nav-two">
                     <a href="#">Produkter & Tjänster</a>
                 </nav>
-                <nav class="bot-nav three">
+                <nav class="bot-nav" id="bot-nav-three">
                     <a href="#">Om Oss</a>
                     <a href="#">Hållbarhet</a>
                     <a href="#">Press & nyheter</a>
@@ -36,3 +36,5 @@
             </section>
             
         </header>
+        <main>
+            <?php include "includes/sidebar.php" ?>

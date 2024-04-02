@@ -1,6 +1,5 @@
 <?php include "includes/header.php" ?>
-        <main>
-            <?php include "includes/sidebar.php" ?>
+        
             <section class="main"> 
                 <h1>Kundservice</h1>
                 <p>
@@ -16,7 +15,7 @@
                     PreemBladet
                 </article>
             </section>
-        </main>
+        
         
         <?php include "includes/footer.php" ?>
         

@@ -11,6 +11,9 @@ header {
     grid-template-columns: auto auto;
     padding: 10px 25%;
 }
+.bot-nav {
+    display: none;
+}
 a {
     text-decoration: none;
 }
@@ -33,6 +36,8 @@ aside {
     display: flex;
 }
 footer {
+    margin: 10px -10px -10px -10px;
+    padding: 10px;
     background-color: #575A61;
     color: #A5AEB3;
 }
