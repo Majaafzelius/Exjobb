@@ -1,9 +1,36 @@
+@font-face {
+    font-family: 'PreemSansNew';
+    src: url('Preem Sans New/Web/PreemSansNew-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: normal; 
+}
+@font-face {
+    font-family: 'PreemSansNew'; 
+    src: url('Preem Sans New/Web/PreemSansNew-Italic.woff') format('woff');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PreemSansNew';
+    src: url('Preem Sans New/Web/PreemSansNew-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'PreemSansNew'; 
+    src: url('Preem Sans New/Web/PreemSansNew-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: bold; 
+}
+
 body {
     background-color: #EEF9F7;
-    font-family: "Roboto", sans-serif;
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family:'PreemSansNew', Calibri, sans-serif;
+    overflow-x: hidden;
 }
+
 header {
     background-color: rgb(255, 255, 255);
     margin: -10px -10px 10px -10px;
