@@ -23,3 +23,32 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const faqCategories = document.querySelectorAll('.faq-category');
+    const faqLists = document.querySelectorAll('.faq-list');
+
+    faqCategories.forEach(category => {
+        category.addEventListener('click', function () {
+            const categoryValue = category.getAttribute('data-category');
+
+            // Close all FAQ lists
+            faqLists.forEach(list => {
+                if (list.getAttribute('data-category') !== categoryValue) {
+                    list.classList.remove('open');
+                }
+            });
+
+            // Toggle open/close current FAQ list
+            const currentList = document.querySelector(`.faq-list[data-category="${categoryValue}"]`);
+            currentList.classList.toggle('open');
+        });
+    });
+
+    const faqs = document.querySelectorAll('.faq');
+    faqs.forEach(faq => {
+        faq.addEventListener('click', function () {
+            this.nextElementSibling.classList.toggle('open');
+        });
+    });
+});

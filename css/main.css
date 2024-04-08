@@ -2,7 +2,7 @@
     font-family: 'PreemSansNew';
     src: url('Preem Sans New/Web/PreemSansNew-Bold.woff') format('woff');
     font-style: normal;
-    font-weight: normal; 
+    font-weight: bold; 
 }
 @font-face {
     font-family: 'PreemSansNew'; 
@@ -22,7 +22,7 @@
     font-family: 'PreemSansNew'; 
     src: url('Preem Sans New/Web/PreemSansNew-Regular.woff') format('woff');
     font-style: normal;
-    font-weight: bold; 
+    font-weight: normal; 
 }
 
 body {
@@ -70,4 +70,29 @@ footer {
 }
 footer a {
     color: white;
+}
+
+.faq-list {
+    display: none;
+}
+
+.faq-list.open {
+    display: block;
+}
+
+.answer {
+    display: none;
+}
+
+.answer.open {
+    display: block;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size:3em;
+    color: #575A61;
 }
