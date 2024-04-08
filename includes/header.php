@@ -14,38 +14,11 @@
                 <img src="Preem.png" alt="logo" class="logo">
             </section>
             <section class="nav">
-            <nav class="top-nav">
-        <?php
-        // Define an array of bot-nav URLs and their corresponding menu options
-        $bot_nav_urls = array(
-            '#one' => 'Privat',
-            '#two' => 'Företag',
-            '#three' => 'Om Preem'
-        );
-
-        // Get the current page URL
-        $current_url = $_SERVER['REQUEST_URI'];
-
-        // Extract the hash part of the current URL
-        $current_hash = parse_url($current_url, PHP_URL_FRAGMENT);
-
-        // Loop through each bot-nav URL and menu option
-        foreach ($bot_nav_urls as $url => $option) {
-            // Check if the hash part of the current URL matches the bot-nav URL
-            if ($current_hash == substr($url, 1)) {
-                // Add a class to mark the menu option as active
-                echo '<a href="' . $url . '" class="active">' . $option . '</a>';
-            } else {
-                echo '<a href="' . $url . '">' . $option . '</a>';
-            }
-        }
-        ?>
-    </nav>
-                <!-- <nav class="top-nav">
+                <nav class="top-nav">
                     <a href="#one">Privat</a>
                     <a href="#two">Företag</a>
                     <a href="#three">Om Preem</a>
-                </nav> -->
+                </nav>
                 <section class="bottom-nav">
                     <nav class="bot-nav" id="bot-nav-one">
                         <a href="#">Hitta station</a>
