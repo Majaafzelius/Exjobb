@@ -8,12 +8,15 @@
                 <p>
                     Telefon från utlandet: +46 (0)10 450 18 00
                 </p>
-                <article>
-                    Hitta Station
-                </article>
-                <article>
-                    PreemBladet
-                </article>
+                <div class="indexContainer">
+                    <div>
+                        Hitta Station
+                    </div>
+                    <div>
+                        PreemBladet
+                    </div>
+                </div>
+                
             </section>
         
         
