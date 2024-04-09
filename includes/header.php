@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css" type="text/css">
         <link rel="stylesheet" href="css/header.css" type="text/css">
-        
+        <link rel="stylesheet" href="css/footer.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
     <body>
         <header> 
@@ -52,3 +53,4 @@
         </header>
         <main>
             <?php include "includes/sidebar.php" ?>
+            <section class="main"> 

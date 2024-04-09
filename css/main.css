@@ -15,7 +15,7 @@
     font-family: 'PreemSansNew';
     src: url('Preem Sans New/Web/PreemSansNew-Medium.woff') format('woff');
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 @font-face {
@@ -38,26 +38,25 @@ a {
 main {
     display: grid;
     grid-template-columns: 30% 70%;
-    margin: 0 25%;
+    margin: 0 21%;
 }
 aside {
     float: left;
 }
 .main {
     display: block;
-    margin-right: 20px;
+    margin: 20px;
 }
 .side-nav a {
     display: flex;
+    margin-top: 15px;
+    border-bottom: 1px solid gray;
+    padding: 0 15px 15px 15px;
+    color: #575a61d5;
 }
-footer {
-    margin: 10px -10px -10px -10px;
-    padding: 10px;
-    background-color: #575A61;
-    color: #A5AEB3;
-}
-footer a {
-    color: white;
+.side-nav h3 {
+    color: #575A61;
+    margin-bottom: -5px;
 }
 
 .faq-list {
@@ -78,13 +77,19 @@ footer a {
 
 h1, h2, h3, h4 {
     font-weight: 500;
+    color: #575A61;
 }
 
 h1 {
     font-size:3em;
-    color: #575A61;
+    
 }
 .indexContainer {
     display: grid;
     grid-template-columns: auto auto;
+}
+
+.side-nav {
+    margin: 0px;
+
 }

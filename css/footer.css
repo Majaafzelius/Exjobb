@@ -1,0 +1,29 @@
+.chatbox-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; /* Ensure it's above other elements */
+  }
+  
+  .chatbox-toggle {
+    width: 80px;
+    height: 80px;
+    background-color: #006341; /* Change the color as needed */
+    border-radius: 50%;
+    cursor: pointer;
+    /* text-align: center; */
+  }
+  .headset-icon {
+    padding: 25%;
+    color: #FFAC3A;
+    font-size: 2.5em;
+  }
+  footer {
+    margin: 10px -10px -10px -10px;
+    padding: 10px;
+    background-color: #575A61;
+    color: #A5AEB3;
+}
+footer a {
+    color: white;
+}

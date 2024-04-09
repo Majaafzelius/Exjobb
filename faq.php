@@ -1,6 +1,5 @@
 <?php include "includes/header.php" ?>
 
-<section class="main">
     <h1>Vanliga frågor och svar</h1>
     <form asp-action="Index" method="get">
         <p>
@@ -43,6 +42,5 @@
         <h3 class="faq">Question 2</h3>
         <p class="answer">Answer 2</p>
     </div>
-</section>
 
 <?php include "includes/footer.php" ?>

@@ -1,6 +1,5 @@
 <?php include "includes/header.php" ?>
-        
-            <section class="main"> 
+            
                 <h1>Kundservice</h1>
                 <p>
                     Vi hjälper dig vid frågor om kort, bulkleveranser eller allmänna frågor. Ha gärna ditt kund-, eller kortnummer till hands när du kontaktar oss så kan vi hjälpa till snabbare. 
@@ -17,8 +16,5 @@
                     </div>
                 </div>
                 
-            </section>
-        
-        
         <?php include "includes/footer.php" ?>
         
