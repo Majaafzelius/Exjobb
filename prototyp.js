@@ -1,7 +1,7 @@
 console.log("Hej1");
 
 document.addEventListener('DOMContentLoaded', function () {
-    const topNavLinks = document.querySelectorAll('.top-nav a');
+    const topNavLinks = document.querySelectorAll('.top-left-nav a');
     const botNavs = document.querySelectorAll('.bot-nav');
 
     topNavLinks.forEach(link => {

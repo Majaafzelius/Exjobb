@@ -15,11 +15,39 @@
                 <img src="Preem.png" alt="logo" class="logo">
             </section>
             <section class="nav">
-                <nav class="top-nav">
-                    <a href="#one">Privat</a>
-                    <a href="#two">Företag</a>
-                    <a href="#three">Om Preem</a>
-                </nav>
+                <section class="top-nav">
+                    <nav class="top-left-nav">
+                        <a href="#one">Privat</a>
+                        <a href="#two">Företag</a>
+                        <a href="#three">Om Preem</a>
+                    </nav>
+                    <div class="top-right-nav">
+                        <div class="nav-item">
+                            <i class="far fa-heart icon"></i>
+                            <a href="#">Hållbarhet</a>
+                        </div>
+                        <div class="nav-item">
+                            <i class="far fa-comment-alt icon"></i>
+                            <a href="#">Kontakta oss</a>
+                        </div>
+                        <div class="nav-item">
+                            <i class="fas fa-globe icon"></i>
+                            <a href="#">Language</a>
+                        </div>
+                        <div class="nav-item">
+                            <i class="far fa-user icon"></i>
+                            <a href="#">Logga in</a>
+                        </div>
+                        <div class="search">
+                            <label for="search">Sök</label>
+                            <input type="text">
+                            <button><i class="fas fa-search icon"></i></button>
+                        </div>
+                    </div>
+
+
+                </section>
+                
                 <section class="bottom-nav">
                     <nav class="bot-nav" id="bot-nav-one">
                         <a href="#">Hitta station</a>

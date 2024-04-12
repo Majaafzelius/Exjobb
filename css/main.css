@@ -49,9 +49,8 @@ aside {
 }
 .side-nav a {
     display: flex;
-    margin-top: 15px;
     border-bottom: 1px solid gray;
-    padding: 0 15px 15px 15px;
+    padding: 15px;
     color: #575a61d5;
 }
 .side-nav h3 {
@@ -89,7 +88,7 @@ h1 {
     grid-template-columns: auto auto;
 }
 
-.side-nav {
-    margin: 0px;
-
+.side-nav a.active {
+    background-color: white;
+    color: #006341;
 }
