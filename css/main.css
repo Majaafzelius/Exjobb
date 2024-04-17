@@ -54,12 +54,13 @@ aside {
 }
 .side-nav a {
     display: flex;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #323439D5;
     padding: 15px;
-    color: #575a61d5;
+    color: #323439D5;
 }
 .side-nav h3 {
-    color: #575A61;
+    /* color: #575A61; */
+    color: #505458;
     margin-bottom: -5px;
 }
 
@@ -81,7 +82,8 @@ aside {
 
 h1, h2, h3 {
     font-weight: 500;
-    color: #575A61;
+    color: #505458;
+    /* color: #575A61; */
 }
 
 h1 {

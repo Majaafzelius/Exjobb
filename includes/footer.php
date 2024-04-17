@@ -71,7 +71,6 @@
       <p><b>Besöksadress <br> Warfvinges väg 45, Stockholm</b></p>
         <p id="copyright">Copyright &copy; Maja Afzelius 2023</p>
         
-        
     </footer>
     <script src="prototyp.js"></script>
 </body>
