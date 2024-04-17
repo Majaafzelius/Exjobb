@@ -12,7 +12,7 @@
     <body>
         <header> 
             <section>
-                <img src="Preem.png" alt="logo" class="logo">
+                <img src="Preem_Primarlogotyp\Digital\PNG\Preem_logo_RGB.png" alt="logo" class="logo">
             </section>
             <section class="nav">
                 <section class="top-nav">
@@ -22,22 +22,18 @@
                         <a href="#three">Om Preem</a>
                     </nav>
                     <div class="top-right-nav">
-                        <div class="nav-item">
-                            <i class="far fa-heart icon"></i>
-                            <a href="#">Hållbarhet</a>
-                        </div>
-                        <div class="nav-item">
-                            <i class="far fa-comment-alt icon"></i>
-                            <a href="#">Kontakta oss</a>
-                        </div>
-                        <div class="nav-item">
-                            <i class="fas fa-globe icon"></i>
-                            <a href="#">Language</a>
-                        </div>
-                        <div class="nav-item">
-                            <i class="far fa-user icon"></i>
-                            <a href="#">Logga in</a>
-                        </div>
+                        <a href="#" class="nav-item">
+                            <i class="far fa-heart icon"></i>Hållbarhet
+                        </a>
+                        <a href="#" class="nav-item">
+                            <i class="far fa-comment-alt icon"></i>Kontakta oss
+                        </a>
+                        <a href="#" class="nav-item">
+                            <i class="fas fa-globe icon"></i>Language
+                        </a>
+                        <a href="#" class="nav-item">
+                            <i class="far fa-user icon"></i>Logga in
+                        </a>
                         <div class="search">
                             <label for="search">Sök</label>
                             <input type="text">
@@ -67,7 +63,7 @@
                         <a href="#">Kund hos oss</a>
                     </nav>
                     <nav class="bot-nav" id="bot-nav-three">
-                        <a href="#">Om Oss</a>
+                        <a href="#">Om oss</a>
                         <a href="#">Hållbarhet</a>
                         <a href="#">Press & nyheter</a>
                         <a href="#">Karriär</a>
