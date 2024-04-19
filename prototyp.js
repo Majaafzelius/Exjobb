@@ -53,3 +53,52 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+function generateCaptcha() {
+    const num1 = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+    const num2 = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+    const operator = ['+', '-'][Math.floor(Math.random() * 2)]; // Randomly choose '+' or '-'
+
+    // Store the expected answer in a global variable
+    window.expectedAnswer = eval(`${num1} ${operator} ${num2}`);
+
+    // Display the CAPTCHA question
+    document.getElementById('captcha-question').innerText = `${num1} ${operator} ${num2} = ?`;
+}
+
+// Call the function to generate the initial CAPTCHA when the page loads
+window.onload = function() {
+    generateCaptcha();
+};function generateCaptcha() {
+    const num1 = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+    const num2 = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
+    const operator = ['+', '-'][Math.floor(Math.random() * 2)]; // Randomly choose '+' or '-'
+
+    // Store the expected answer in a global variable
+    window.expectedAnswer = eval(`${num1} ${operator} ${num2}`);
+
+    // Display the CAPTCHA question
+    document.getElementById('captcha-question').innerText = `${num1} ${operator} ${num2} = ?`;
+}
+
+// Call the function to generate the initial CAPTCHA when the page loads
+window.onload = function() {
+    generateCaptcha();
+};
+
+// Optional: You could add a form submit event listener to validate the CAPTCHA answer
+function validateCaptcha(event) {
+    event.preventDefault(); // Prevent form submission
+
+    const userAnswer = parseInt(document.getElementById('captcha-answer').value);
+
+    if (userAnswer === window.expectedAnswer) {
+        alert('CAPTCHA passed! Form submitted.');
+        document.getElementById('myForm').submit();
+    } else {
+        alert('CAPTCHA failed! Please try again.');
+        generateCaptcha();
+    }
+}
+
+document.getElementById('myForm').addEventListener('submit', validateCaptcha);

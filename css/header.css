@@ -36,8 +36,10 @@ header {
     color: #006341;
 }
 .top-left-nav a {
-    color:  #09812b;
+    color: #006341;
+    /* color:  #09812b; */
     /* color:  #92D26B; */
+    /* color: #8FCC60; */
     margin-right: 20px;
     font-size: large;
 }
@@ -56,7 +58,8 @@ header {
     flex-direction: column;
     align-items: center;
     margin: 0 10px;
-    color: #09812b;
+    color: #006341;
+    /* color: #09812b; */
     /* color:  #92D26B; */
     font-size: 11px;
     font-weight: normal;
@@ -72,7 +75,8 @@ header {
 }
 .icon {
     /* color:  #92D26B; */
-    color: #09812b;
+    /* color: #09812b; */
+    color: #006341;
     font-size: 20px;
 }
 

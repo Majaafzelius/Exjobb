@@ -38,6 +38,7 @@ body {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 main {
@@ -103,4 +104,34 @@ h1 {
 .contact {
     display: grid;
     grid-template-columns: auto auto;
+}
+
+.captcha-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#captcha-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#captcha-question {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.faq-category, .faq {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.adress {
+    background-color: #ffffff;
+    padding: 0px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 0px 10px;
+}
+.adress h3 {
+    color: #006341;
 }

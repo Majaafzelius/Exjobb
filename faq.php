@@ -41,22 +41,29 @@
         <p class="answer">Du har möjlighet att hyra envägssläp på utvalda stationer. Du hyr enklast via vår samarbetspartner Brenderup.</p>
 
     </div>
-    <h2 class="faq-category" data-category="category3">Appar</h2>
+    <h2 class="faq-category" data-category="category3">Privatappen</h2>
     <div class="faq-list" data-category="category3">
         <h3 class="faq">Question 1</h3>
         <p class="answer">Answer 1</p>
         <h3 class="faq">Question 2</h3>
         <p class="answer">Answer 2</p>
     </div>
-    <h2 class="faq-category" data-category="category4">Utbyte till Företagskort med chip</h2>
+    <h2 class="faq-category" data-category="category4">Företagsappen</h2>
     <div class="faq-list" data-category="category4">
         <h3 class="faq">Question 1</h3>
         <p class="answer">Answer 1</p>
         <h3 class="faq">Question 2</h3>
         <p class="answer">Answer 2</p>
     </div>
-    <h2 class="faq-category" data-category="category5">Övrigt</h2>
+    <h2 class="faq-category" data-category="category5">Utbyte till Företagskort med chip</h2>
     <div class="faq-list" data-category="category5">
+        <h3 class="faq">Question 1</h3>
+        <p class="answer">Answer 1</p>
+        <h3 class="faq">Question 2</h3>
+        <p class="answer">Answer 2</p>
+    </div>
+    <h2 class="faq-category" data-category="category6">Övrigt</h2>
+    <div class="faq-list" data-category="category6">
         <h3 class="faq">Hur kommer jag i kontakt med en specifik station?</h3>
         <p class="answer">Gå till Hitta station för att få fram kontaktuppgifter.</p>
         <h3 class="faq">Vad innehåller HVO och var kan jag tanka HVO?</h3>
