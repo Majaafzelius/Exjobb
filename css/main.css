@@ -113,7 +113,7 @@ h1 {
 
 #captcha-container {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
@@ -134,4 +134,45 @@ h1 {
 }
 .adress h3 {
     color: #006341;
+}
+.input {
+    padding: 10px;
+    border: 1px solid #c0c3c7;
+    outline: none;
+    margin: 5px 0px 20px 0px;
+    font-size: larger;
+}
+.input:focus{
+    border: 1px solid #006341;
+    /* outline:#006341; */
+}
+select {
+    color: #006341;
+}
+form label {
+    font-weight: bold;
+    color: #505458;
+    font-size: 14px;
+    /* margin: 10px; */
+}
+.info {
+    font-size: 14px;
+    color: #505458;
+}
+.consent {
+    border: 1px solid #c0c3c7;
+    padding: 5px;
+    font-size: normal; 
+}
+.send {
+    background-color: #FFAC3A;
+    color: #002E38;
+    padding: 10px;
+    border: 0;
+    font-weight: bold;
+    font-size: large;
+}
+/* Highlighting class */
+.highlight {
+    background-color: yellow; /* You can change this color as needed */
 }

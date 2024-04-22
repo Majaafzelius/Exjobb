@@ -102,3 +102,42 @@ function validateCaptcha(event) {
 }
 
 document.getElementById('myForm').addEventListener('submit', validateCaptcha);
+
+
+function filterQuestions() {
+    const searchInput = document.getElementById('search-input').value.toLowerCase();
+    const faqLists = document.querySelectorAll('.faq-list');
+
+    faqLists.forEach(faqList => {
+        const questions = faqList.querySelectorAll('.faq');
+        let hasMatchingQuestion = false;
+
+        questions.forEach(question => {
+            const answer = question.nextElementSibling; // The answer element is the next sibling
+            const questionText = question.textContent.toLowerCase();
+            const answerText = answer.textContent.toLowerCase();
+
+            if (questionText.includes(searchInput) || answerText.includes(searchInput)) {
+                question.style.display = 'block';
+                answer.style.display = 'block';
+                hasMatchingQuestion = true;
+            } else {
+                question.style.display = 'none';
+                answer.style.display = 'none';
+            }
+        });
+
+        // Show or hide the FAQ category based on whether it has matching questions
+        const category = faqList.previousElementSibling;
+        if (hasMatchingQuestion) {
+            faqList.style.display = 'block';
+            category.style.display = 'block';
+        } else {
+            faqList.style.display = 'none';
+            category.style.display = 'none';
+        }
+    });
+}
+
+
+
