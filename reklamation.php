@@ -17,7 +17,7 @@
 <p>
     Fält markerade med * är obligatoriska och måste fyllas i.
 </p>
-<form action="">
+<form>
     <label for="kundnummer">Kundnummer</label><br>
     <input type="text" class="input" name="kundnummer" id="kundnummer"><br>
 

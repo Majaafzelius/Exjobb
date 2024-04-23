@@ -1,4 +1,4 @@
-</section>
+</div>
 <!-- <div class="chatbox-container">
   <div class="chatbox-toggle">
     <i class="fas fa-headset headset-icon"></i>

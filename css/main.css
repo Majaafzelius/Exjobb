@@ -89,7 +89,6 @@ h1, h2, h3 {
 
 h1 {
     font-size:3em;
-    
 }
 .indexContainer {
     display: grid;
@@ -122,9 +121,13 @@ h1 {
     font-weight: bold;
 }
 
-.faq-category, .faq {
-    text-decoration: underline;
+.faq-category, .faq, .icon {
     cursor: pointer;
+    color: #006341;
+}
+.faq-category:hover, .faq:hover {
+    text-decoration: underline;
+    color: #002E38;
 }
 .adress {
     background-color: #ffffff;
@@ -162,7 +165,7 @@ form label {
 .consent {
     border: 1px solid #c0c3c7;
     padding: 5px;
-    font-size: normal; 
+    /* font-size: normal;  */
 }
 .send {
     background-color: #FFAC3A;
@@ -172,7 +175,10 @@ form label {
     font-weight: bold;
     font-size: large;
 }
-/* Highlighting class */
-.highlight {
-    background-color: yellow; /* You can change this color as needed */
+
+.icon {
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer; 
 }
+

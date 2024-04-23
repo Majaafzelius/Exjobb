@@ -1,7 +1,7 @@
 <?php include "includes/header.php"?>
 <h1>Kontaktformulär</h1>
 <p>Här kan du mejla vår kundtjänst direkt.</p>
-<form action="">
+<form>
     <label for="type">Ärendetyp:</label><br>
     <select id="type" class="input">
         <option value="default" disabled selected>Vänligen välj ärendetyp</option>
@@ -49,9 +49,7 @@
             <span id="captcha-question"></span>
             <button type="button" onclick="generateCaptcha()">Refresh captcha</button>
         </div>
-        <input type="text" id="captcha-answer" required>
-    </div>
-        
+        <input type="text" id="captcha" required>
     </div>
 
     <input type="submit" class="send">

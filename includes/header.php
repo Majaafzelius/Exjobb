@@ -12,11 +12,11 @@
     </head>
     <body>
         <header> 
-            <section>
-                <img src="Preem_Primarlogotyp\Digital\PNG\Preem_logo_RGB.png" alt="logo" class="logo">
-            </section>
-            <section class="nav">
-                <section class="top-nav">
+            <div>
+                <img src="Preem_Primarlogotyp/Digital/PNG/Preem_logo_RGB.png" alt="logo" class="logo">
+            </div>
+            <div class="nav">
+                <div class="top-nav">
                     <nav class="top-left-nav">
                         <a href="#one">Privat</a>
                         <a href="#two">Företag</a>
@@ -24,28 +24,28 @@
                     </nav>
                     <div class="top-right-nav">
                         <a href="#" class="nav-item">
-                            <i class="far fa-heart icon"></i>Hållbarhet
+                            <i class="far fa-heart headIcon"></i>Hållbarhet
                         </a>
                         <a href="#" class="nav-item">
-                            <i class="far fa-comment-alt icon"></i>Kontakta oss
+                            <i class="far fa-comment-alt headIcon"></i>Kontakta oss
                         </a>
                         <a href="#" class="nav-item">
-                            <i class="fas fa-globe icon"></i>Language
+                            <i class="fas fa-globe headIcon"></i>Language
                         </a>
                         <a href="#" class="nav-item">
-                            <i class="far fa-user icon"></i>Logga in
+                            <i class="far fa-user headIcon"></i>Logga in
                         </a>
                         <div class="search">
                             <label for="search">Sök</label>
-                            <input type="text">
-                            <button><i class="fas fa-search icon"></i></button>
+                            <input type="text" id="search">
+                            <button><i class="fas fa-search headIcon"></i></button>
                         </div>
                     </div>
 
 
-                </section>
+                </div>
                 
-                <section class="bottom-nav">
+                <div class="bottom-nav">
                     <nav class="bot-nav" id="bot-nav-one">
                         <a href="#">Hitta station</a>
                         <a href="#">Drivmedel</a>
@@ -72,10 +72,10 @@
                         <a href="#">insikt & Kunskap</a>
                         <a href="#">Personuppgifter</a>
                     </nav>
-                </section>
-            </section>
+                </div>
+            </div>
             
         </header>
         <main>
             <?php include "includes/sidebar.php" ?>
-            <section class="main"> 
+            <div class="main"> 

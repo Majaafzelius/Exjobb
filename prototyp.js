@@ -1,8 +1,8 @@
-console.log("Hej1");
 
 document.addEventListener('DOMContentLoaded', function () {
     const topNavLinks = document.querySelectorAll('.top-left-nav a');
     const botNavs = document.querySelectorAll('.bot-nav');
+
 
     topNavLinks.forEach(link => {
         link.addEventListener('click', function (event) {
@@ -50,6 +50,14 @@ document.addEventListener('DOMContentLoaded', function () {
     faqs.forEach(faq => {
         faq.addEventListener('click', function () {
             this.nextElementSibling.classList.toggle('open');
+            const icon = this.querySelector('.icon'); // The icon element
+
+            // Toggle the icon text between plus (+) and minus (-)
+            if (this.nextElementSibling.classList.contains('open')) {
+                icon.textContent = '-';
+            } else {
+                icon.textContent = '+';
+            }
         });
     });
 });
@@ -87,21 +95,21 @@ window.onload = function() {
 };
 
 // Optional: You could add a form submit event listener to validate the CAPTCHA answer
-function validateCaptcha(event) {
-    event.preventDefault(); // Prevent form submission
+// function validateCaptcha(event) {
+//     event.preventDefault(); // Prevent form submission
 
-    const userAnswer = parseInt(document.getElementById('captcha-answer').value);
+//     const userAnswer = parseInt(document.getElementById('captcha-answer').value);
 
-    if (userAnswer === window.expectedAnswer) {
-        alert('CAPTCHA passed! Form submitted.');
-        document.getElementById('myForm').submit();
-    } else {
-        alert('CAPTCHA failed! Please try again.');
-        generateCaptcha();
-    }
-}
+//     if (userAnswer === window.expectedAnswer) {
+//         alert('CAPTCHA passed! Form submitted.');
+//         document.getElementById('myForm').submit();
+//     } else {
+//         alert('CAPTCHA failed! Please try again.');
+//         generateCaptcha();
+//     }
+// }
 
-document.getElementById('myForm').addEventListener('submit', validateCaptcha);
+// document.getElementById('myForm').addEventListener('submit', validateCaptcha);
 
 
 function filterQuestions() {
@@ -110,6 +118,7 @@ function filterQuestions() {
 
     faqLists.forEach(faqList => {
         const questions = faqList.querySelectorAll('.faq');
+
         let hasMatchingQuestion = false;
 
         questions.forEach(question => {
@@ -124,6 +133,7 @@ function filterQuestions() {
             } else {
                 question.style.display = 'none';
                 answer.style.display = 'none';
+                
             }
         });
 
@@ -138,6 +148,8 @@ function filterQuestions() {
         }
     });
 }
+
+
 
 
 
