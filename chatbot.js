@@ -31,13 +31,13 @@ function displayMessage(message, sender) {
 // Function to respond to user input
 function respondToUser(userMessage) {
     const responses = {
-        'hello': 'Hi! How can I help you?',
-        'how are you': 'I\'m just a bot, but I\'m here to assist you!',
-        'bye': 'Goodbye! Have a great day!',
+        'hej': 'Hej! Hur kan jag stå till tjänst?',
+        'vem är du': 'Jag är en enkel prototyp på en chatbot. Tanken är att kunder ska kunna fråga mig om enkla saker så de slipper ringa kundtjänst.',
+        'hejdå': 'Hejdå! Ha en trevlig dag!',
         // Add more responses as needed
     };
 
-    const response = responses[userMessage.toLowerCase()] || 'Sorry, I didn\'t understand that. Can you rephrase?';
+    const response = responses[userMessage.toLowerCase()] || 'Jag ber om ursäkt, Eftersom jag endast är en prototyp kan jag bara svara på "hej", "vem är du" och "hejdå". ';
     displayMessage(response, 'bot');
 }
 

@@ -27,25 +27,156 @@
     font-style: normal;
     font-weight: 500;
 }
-
-
-
 body {
     background-color: #EEF9F7;
     font-family:'PreemSansNew', Calibri, sans-serif;
     overflow-x: hidden;
 }
-
 a {
     text-decoration: none;
     cursor: pointer;
 }
-
-main {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    margin: 0 21%;
+.faq-list {
+    display: none;
 }
+.faq-list.open {
+    display: block;
+}
+.answer {
+    display: none;
+}
+.answer.open {
+    display: block;
+}
+.contact h2 {
+    border-bottom: 1px solid #002E38;
+    padding-bottom: 5px;
+}
+@media screen and (min-width:1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        margin: 0 21%;
+    }
+    aside {
+        float: left;
+    }
+    .main {
+        display: block;
+        margin: 20px;
+    }
+    .side-nav a {
+        display: flex;
+        border-bottom: 1px solid #323439D5;
+        padding: 15px;
+        color: #323439D5;
+    }
+    .side-nav h3 {
+        /* color: #575A61; */
+        color: #505458;
+        margin-bottom: -5px;
+    }
+    h1, h2, h3 {
+        font-weight: 500;
+        color: #505458;
+        /* color: #575A61; */
+    }
+    h1 {
+        font-size:3em;
+    }
+    .indexContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .side-nav a.active {
+        background-color: white;
+        color: #006341;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .captcha-section {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #captcha-container {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    #captcha-question {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    .faq-category, .faq, .icon {
+        cursor: pointer;
+        color: #006341;
+    }
+    .faq-category:hover, .faq:hover {
+        text-decoration: underline;
+        color: #002E38;
+    }
+    .adress {
+        background-color: #ffffff;
+        padding: 0px 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        margin: 0px 10px;
+    }
+    .adress h3 {
+        color: #006341;
+    }
+    .input {
+        padding: 10px;
+        border: 1px solid #c0c3c7;
+        outline: none;
+        margin: 5px 0px 20px 0px;
+        font-size: larger;
+    }
+    .input:focus{
+        border: 1px solid #006341;
+        /* outline:#006341; */
+    }
+    select {
+        color: #006341;
+    }
+    form label {
+        font-weight: bold;
+        color: #505458;
+        font-size: 14px;
+        /* margin: 10px; */
+    }
+    .info {
+        font-size: 14px;
+        color: #505458;
+    }
+    .consent {
+        border: 1px solid #c0c3c7;
+        padding: 5px;
+        /* font-size: normal;  */
+    }
+    .send {
+        background-color: #FFAC3A;
+        color: #002E38;
+        padding: 10px;
+        border: 0;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .icon {
+        margin-right: 10px;
+        font-weight: bold;
+        cursor: pointer; 
+    }
+}
+@media screen and (min-width:1024px)and (min-width:1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        margin: 0 21%;
+    }
+    
 aside {
     float: left;
 }
@@ -63,22 +194,6 @@ aside {
     /* color: #575A61; */
     color: #505458;
     margin-bottom: -5px;
-}
-
-.faq-list {
-    display: none;
-}
-
-.faq-list.open {
-    display: block;
-}
-
-.answer {
-    display: none;
-}
-
-.answer.open {
-    display: block;
 }
 
 h1, h2, h3 {
@@ -182,3 +297,118 @@ form label {
     cursor: pointer; 
 }
 
+
+}
+@media screen and (max-width:800px) {
+    main {
+        margin: 0 1%;
+    }
+    .placeholder {
+        max-width: 300px;
+    }
+    .main {
+        display: block;
+        margin: 20px;
+    }
+    .side-nav a {
+        display: flex;
+        border-bottom: 1px solid #323439D5;
+        padding: 15px;
+        color: #323439D5;
+    }
+    .side-nav h3 {
+        color: #505458;
+        margin-bottom: -5px;
+    }
+    h1, h2, h3 {
+        font-weight: 500;
+        color: #505458;
+    }
+    h1 {
+        font-size:3em;
+    }
+    .indexContainer {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .side-nav a.active {
+        background-color: white;
+        color: #006341;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .captcha-section {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #captcha-container {
+        display: flex;
+        align-items: center;
+    }
+    #captcha-question {
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    .faq-category, .faq, .icon {
+        cursor: pointer;
+        color: #006341;
+    }
+    .faq-category:hover, .faq:hover {
+        text-decoration: underline;
+        color: #002E38;
+    }
+    .adress {
+        order: 0;
+        background-color: #ffffff;
+        padding: 0px 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        margin: 0px 10px;
+    }
+    .road {
+        order: 1;
+    }
+    .adress h3 {
+        color: #006341;
+    }
+    .input {
+        padding: 10px;
+        border: 1px solid #c0c3c7;
+        outline: none;
+        margin: 5px 0px 20px 0px;
+        font-size: larger;
+    }
+    .input:focus{
+        border: 1px solid #006341;
+    }
+    select {
+        color: #006341;
+    }
+    form label {
+        font-weight: bold;
+        color: #505458;
+        font-size: 14px;
+    }
+    .info {
+        font-size: 14px;
+        color: #505458;
+    }
+    .consent {
+        border: 1px solid #c0c3c7;
+        padding: 5px;
+    }
+    .send {
+        background-color: #FFAC3A;
+        color: #002E38;
+        padding: 10px;
+        border: 0;
+        font-weight: bold;
+        font-size: large;
+    }
+    .icon {
+        margin-right: 10px;
+        font-weight: bold;
+        cursor: pointer; 
+    }    
+}

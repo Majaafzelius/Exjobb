@@ -1,9 +1,5 @@
 </div>
-<!-- <div class="chatbox-container">
-  <div class="chatbox-toggle">
-    <i class="fas fa-headset headset-icon"></i>
-  </div>
-</div> -->
+
 <div id="chatbot-wrapper" class="chatbot-wrapper">
         <button id="toggle-chatbot" onclick="toggleChatbot()">Chatbot</button>
         <div id="chatbot-container" class="chatbot-container hidden">
@@ -12,8 +8,8 @@
                 <!-- Conversation history will be displayed here -->
             </div>
             <div class="input-container">
-                <input type="text" id="chat-input" placeholder="Type your message..." onkeydown="handleKeyDown(event)">
-                <button onclick="handleUserInput()">Send</button>
+                <input type="text" id="chat-input" placeholder="Skriv ditt meddelande här..." onkeydown="handleKeyDown(event)">
+                <button onclick="handleUserInput()">Skicka</button>
             </div>
         </div>
     </div>
@@ -52,7 +48,7 @@
         <div class="foot_item">
           <h4>Kundservice & kontakt</h4>
           <div class="footer_cs_container">
-            <div>
+            <div class="foot_item">
               Privatkort & MasterCard <br>
               Tel: 0476-58 71 40 <br>
               Mån-fre 08.00-17.00 <br>

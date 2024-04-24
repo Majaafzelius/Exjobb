@@ -9,10 +9,10 @@
                 </p>
                 <div class="indexContainer">
                     <div>
-                        <img src="hittastation.png" alt="placeholder for Hitta station">
+                        <img src="hittastation.png" class="placeholder" alt="placeholder for Hitta station">
                     </div>
                     <div>
-                        <img src="preembladet.png" alt="Placeholder för Preembladet">
+                        <img src="preembladet.png" class="placeholder" alt="Placeholder för Preembladet">
                     </div>
                 </div>
                 
