@@ -32,12 +32,12 @@ function displayMessage(message, sender) {
 function respondToUser(userMessage) {
     const responses = {
         'hej': 'Hej! Hur kan jag stå till tjänst?',
-        'vem är du': 'Jag är en enkel prototyp på en chatbot. Tanken är att kunder ska kunna fråga mig om enkla saker så de slipper ringa kundtjänst.',
+        'vem är du': 'Jag är en mycket enkel prototyp/placeholder på en chatbot. Tanken är att kunder ska kunna fråga mig om enkla saker så de slipper ringa kundtjänst.',
         'hejdå': 'Hejdå! Ha en trevlig dag!',
         // Add more responses as needed
     };
 
-    const response = responses[userMessage.toLowerCase()] || 'Jag ber om ursäkt, Eftersom jag endast är en prototyp kan jag bara svara på "hej", "vem är du" och "hejdå". ';
+    const response = responses[userMessage.toLowerCase()] || 'Jag ber om ursäkt, Eftersom jag endast är en prototyp/placeholder kan jag bara svara på "hej", "vem är du" och "hejdå". ';
     displayMessage(response, 'bot');
 }
 

@@ -3,7 +3,7 @@
     margin: 10px -10px -10px -10px;
     background-color: #3F4146;
     color: #D3D7D9;
-    padding: 10px 21%;
+    padding: 10px 13%;
   }
   footer a {
       color: white;
@@ -13,7 +13,7 @@
     grid-template-columns: auto auto auto auto;
   }
   .foot_item {
-    margin: 10px;
+    padding: 0 15px;
   }
   .foot_item a {
     display: flex;
@@ -35,7 +35,7 @@
     margin: 10px -10px -10px -10px;
     background-color: #3F4146;
     color: #D3D7D9;
-    padding: 10px 5%;
+    padding: 10px 2%;
   }
   footer a {
       color: white;
@@ -45,7 +45,7 @@
     grid-template-columns: auto auto auto auto;
   }
   .foot_item {
-    margin: 10px;
+    padding: 0 10px;
   }
   .foot_item a {
     display: flex;

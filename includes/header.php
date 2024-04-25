@@ -15,8 +15,8 @@
     <header>
     <div class="search-mobile" id="search-mobile">
         <label for="search">Sök</label>
-        <input type="text" id="search">
-        <button><i class="fas fa-search headIcon"></i></button>
+        <input type="text" id="search" placeholder="Skriv in ett sökord">
+        <button><i class="fas fa-search headIcon" placeholder="Skriv in ett sökord"></i></button>
     </div>
     <div class="mobile-header">
         <button class="hamburger-menu" id="hamburger-menu">&#9776;</button>
@@ -46,7 +46,7 @@
                 <div class="search">
                     <label for="search">Sök</label>
                     <input type="text" id="search">
-                    <button><i class="fas fa-search headIcon"></i></button>
+                    <button><i class="fas fa-search headIcon" placeholder="Skriv in ett sökord"></i></button>
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@
                 <a href="#">Press & nyheter</a>
                 <a href="#">Karriär</a>
                 <a href="#">Finansiellt</a>
-                <a href="#">insikt & Kunskap</a>
+                <a href="#">Insikt & Kunskap</a>
                 <a href="#">Personuppgifter</a>
             </nav>
         </div>
@@ -113,7 +113,7 @@
                 <a href="#">Press & nyheter</a>
                 <a href="#">Karriär</a>
                 <a href="#">Finansiellt</a>
-                <a href="#">insikt & Kunskap</a>
+                <a href="#">Insikt & Kunskap</a>
                 <a href="#">Personuppgifter</a>
             </nav>
         </div>
@@ -132,7 +132,6 @@
             </a>
         </div>
     </div> 
-    
 </header>
         <main>
             <?php include "includes/sidebar.php" ?>

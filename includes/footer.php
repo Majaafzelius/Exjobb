@@ -69,12 +69,12 @@
               Dygnet runt <br>
               <a href="form.php">Kontakta oss</a><br>
             </div>
-            <div>
+            <div class="foot_item">
               Presstelefon <br>
               Tel: 070-450 10 01 <br>
               (för press- och intervjufrågor)<br><br>
             </div>
-            <div>
+            <div class="foot_item">
               Preem AB<br>
               112 80 Stockholm<br>
               Växel: 010-450 10 00<br>
@@ -87,7 +87,7 @@
         </div>
       </div>
       <p><b>Besöksadress <br> Warfvinges väg 45, Stockholm</b></p>
-        <p id="copyright">Copyright &copy; Maja Afzelius 2023</p>
+        <p id="copyright">Copyright &copy; Maja Afzelius 2024</p>
         
     </footer>
     <script src="prototyp.js"></script>
